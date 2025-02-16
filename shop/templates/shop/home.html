@@ -1,0 +1,12 @@
+<!-- shop/templates/shop/home.html -->
+{% extends 'shop/base.html' %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">E-Commerce</h1>
+    <p class="lead">Upgrade Your Tech, Elevate Your Life.</p>
+    <hr class="my-4">
+    <p>Explore our catalog and find the best deals.</p>
+    <a class="btn btn-primary btn-lg" href="{% url 'catalog' %}" role="button">Shop Now</a>
+</div>
+{% endblock %}

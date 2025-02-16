@@ -1,0 +1,11 @@
+<!-- shop/templates/shop/checkout.html -->
+{% extends 'shop/base.html' %}
+
+{% block content %}
+<h1 class="my-4">Checkout</h1>
+<div class="alert alert-success" role="alert">
+    Thank you for your order!
+</div>
+<p>This is a placeholder checkout page. Payment and order processing will be implemented here.</p>
+<a href="{% url 'home' %}" class="btn btn-secondary">Continue Shopping</a>
+{% endblock %}
